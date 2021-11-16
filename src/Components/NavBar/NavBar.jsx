@@ -25,7 +25,7 @@ const NavBar = (props) => {
             </div>
             <div className={m.friendsBlock}>
                 <div className={m.head}>Best Friends</div>
-                {props.state.friends.map(friend => (<FriendItem state={friend}/>))}
+                {props.state.friendsList.map(friend => (<FriendItem state={friend}/>))}
             </div>
         </nav>
     );

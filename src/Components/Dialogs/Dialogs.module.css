@@ -10,3 +10,6 @@
 .messagesItems {
     padding: 10px;
 }
+.messageTextarea{
+    width: 100%;
+}
