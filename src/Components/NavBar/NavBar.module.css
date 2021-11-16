@@ -1,0 +1,31 @@
+.navBar {
+    grid-area: nav;
+    background-color: #1A2238;
+    padding: 20px;
+}
+
+.navItem a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navItem a.active {
+    color: #FF6A3D;
+}
+
+.friendsBlock {
+    display: grid;
+    grid-template-areas:
+    "head head head"
+    "fr fr fr";
+    padding-top: 50px;
+    color: white;
+}
+
+.head {
+    color: white;
+    grid-area: head;
+    text-align: center;
+    font-size: 25px;
+}

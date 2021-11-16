@@ -1,0 +1,9 @@
+.postItem{
+    border: 1px solid black; /* Параметры границы */
+    background: #FF6A3D; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+.postAvatar{
+    height: 50px;
+}

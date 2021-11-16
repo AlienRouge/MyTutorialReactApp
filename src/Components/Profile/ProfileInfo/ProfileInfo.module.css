@@ -1,0 +1,13 @@
+.HeaderImage{
+    object-fit: cover    ;
+    width: 100%;
+    height: 150px;
+
+}
+.HeaderContainer{
+    /*overflow: hidden;*/
+}
+
+.DescriptionBlock{
+    padding: 10px;
+}

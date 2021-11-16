@@ -1,0 +1,16 @@
+.friendItem {
+
+}
+
+.friendCaption {
+    margin: 0 auto 5px;
+    text-align: center;
+}
+
+.friendAvatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 50px;
+}
