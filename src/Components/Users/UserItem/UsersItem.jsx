@@ -1,11 +1,11 @@
 import React from "react";
 import style from "./UserItem.module.css"
 import USER_DEFAULT_ICON from "./../../../Assets/Images/user-icon-mock.png"
+import {Link} from "react-router-dom";
 
 
 const UserItem = (props) => {
     const OnFollow = () => {
-        debugger;
         props.FollowUser(props.id)
     }
 
@@ -16,8 +16,10 @@ const UserItem = (props) => {
     return (
         <div className={style.userItem}>
             <div>
-                <img className={style.userAvatar}
-                     src={props.photos.small == null ? USER_DEFAULT_ICON : props.photos.small} alt={""}/>
+                <Link to={'/profile/' + props.id}>
+                    <img className={style.userAvatar}
+                         src={props.photos.small == null ? USER_DEFAULT_ICON : props.photos.small} alt={""}/>
+                </Link>
                 <div>{props.followed ?
                     <button onClick={OnUnfollow} className={style.unfollowBtn}>Unfollow</button> :
                     <button onClick={OnFollow} className={style.followBtn}>Follow</button>}</div>

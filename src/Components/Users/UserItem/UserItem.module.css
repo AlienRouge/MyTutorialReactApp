@@ -9,16 +9,16 @@
     background-color: #9DAAF2;
     border-radius: 50% 20% / 10% 40%;
     width: 40em;
+    height: 6.5em;
     margin-left: 1em;
     color: white;
 }
 
 .userAvatar {
     display: block;
-    margin: auto;
     border-radius: 50%;
     width: 80px;
-    padding-bottom: 10px;
+    margin: auto auto 10px;
 }
 
 .followBtn {
@@ -32,6 +32,8 @@
     display: block;
     font-size: 12px;
     width: 70px;
+    font-weight: bold;
+    border-radius: 10% / 50%;
 }
 
 .unfollowBtn {
@@ -44,7 +46,9 @@
     text-decoration: none;
     display: block;
     font-size: 12px;
+    font-weight: bold;
     width: 70px;
+    border-radius: 10% / 50%;
 }
 
 .userName {

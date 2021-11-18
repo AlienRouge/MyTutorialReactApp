@@ -7,7 +7,7 @@ const FriendsArea = (props) => {
     return (
         <div className={m.friendsBlock}>
             <div className={m.head}>Best Friends</div>
-            {props.friendsList.map(friend => (<FriendItem state={friend}/>))}
+            {props.friendsList.map(friend => (<FriendItem key={friend.id} state={friend}/>))}
         </div>
     )
 }

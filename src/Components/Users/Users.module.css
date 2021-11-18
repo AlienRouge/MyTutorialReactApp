@@ -1,10 +1,19 @@
-.UsersPage{
-padding: 2em;
+.UsersPage {
+    padding: 2em;
 }
 
-.UsersHeader{
+.UsersHeader {
     text-align: center;
     font-weight: bold;
     font-size: 120px;
     color: #1A2238;
+}
+
+.PagesContainer {
+    padding: 2em;
+    margin: auto;
+}
+
+.selectedPage {
+    font-weight: bold;
 }

@@ -3,7 +3,8 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import style from './Profile.module.css'
 import PostListContainer from "./PostsList/PostListContainer";
 
-const Profile = () => {
+const Profile = (props) => {
+    console.log(props)
     return (
         <div>
             <ProfileInfo/>
