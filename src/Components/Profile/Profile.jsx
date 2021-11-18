@@ -1,13 +1,13 @@
 import React from "react";
-import PostsList from "./PostsList/PostsList";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import m from './Profile.module.css'
+import style from './Profile.module.css'
+import PostListContainer from "./PostsList/PostListContainer";
 
-const Profile = (props) => {
+const Profile = () => {
     return (
         <div>
             <ProfileInfo/>
-            <PostsList state={props.state} dispatch={props.dispatch}/>
+            <PostListContainer/>
         </div>
     );
 

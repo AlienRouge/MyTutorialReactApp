@@ -1,0 +1,74 @@
+.userItem {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin: 2em 2em 2em 6em;
+}
+
+.userInfoContainer {
+    border: 1px solid #9DAAF2;
+    background-color: #9DAAF2;
+    border-radius: 50% 20% / 10% 40%;
+    width: 40em;
+    margin-left: 1em;
+    color: white;
+}
+
+.userAvatar {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.followBtn {
+    margin: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    width: 70px;
+}
+
+.unfollowBtn {
+    margin: auto;
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    width: 70px;
+}
+
+.userName {
+    position: relative;
+    top: 0.5em;
+    left: 1em;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.locationName {
+    position: relative;
+    font-size: 20px;
+    text-align: right;
+    right: 1em;
+    top: 1em;
+    font-style: italic;
+}
+
+.statusText {
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    left: 5em;
+    top: 1em;
+    color: #f2e59d ;
+}

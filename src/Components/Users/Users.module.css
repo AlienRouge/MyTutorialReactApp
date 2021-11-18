@@ -1,0 +1,10 @@
+.UsersPage{
+padding: 2em;
+}
+
+.UsersHeader{
+    text-align: center;
+    font-weight: bold;
+    font-size: 120px;
+    color: #1A2238;
+}
